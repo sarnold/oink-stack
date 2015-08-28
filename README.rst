@@ -31,7 +31,7 @@ As of 08-22-2015, patched in ebuild in portage overlay:
 
 1. perl array error (new in perl 5.22) causes configure.pl to blow up
 
-2. dperecated pure_parser directive should be pure-parser
+2. deprecated pure_parser directive should be pure-parser
 
 3. And most importantly, it will NOT build with any version of Bison3 in portage, and must be hard-dep'd on bison 2 (sys-devel/bison-2.7.1 works fine).
 
